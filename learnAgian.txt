@@ -1,2 +1,3 @@
 i am the first row!
 insert:insert into student (name,age,sex) values('aqi',12,'female');
+update:update student set name='xiaobai',age=17 where sex=female;
