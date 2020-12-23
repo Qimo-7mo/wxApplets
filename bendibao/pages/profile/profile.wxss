@@ -1,0 +1,51 @@
+page {
+    background-color: #f0f0f0;
+}
+/* 头像 */
+.head {
+    height:350rpx;
+    background-color: #f60;
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.hdimg {
+    width:200rpx;
+    height:200rpx;
+}
+/* 列表 */
+.prroItem {
+    display:flex;
+    width:100%;
+    height:90rpx;
+    border-top:1rpx solid #ccc;
+    align-items:center;
+    padding-left:20rpx;
+    background-color: #fff;
+    justify-content:space-between;
+}
+.prroItem::after {
+    content:"";
+    width: 20rpx;
+    height:20rpx;
+    border-right:1rpx solid #999;
+    border-bottom:1rpx solid #999;
+    margin-right:60rpx;
+    transform:rotate(-45deg);
+}
+/* 分割 */
+.cut {
+    margin-top:20rpx;
+}
+.bd_bottom {
+    border-bottom:1px solid #ccc;
+}
+/* 分割封装 */
+/* .division::after {
+    content:"";
+    width:100%;
+    height:20rpx;
+    background-color: #f0f0f0;
+    display:flex;
+} */

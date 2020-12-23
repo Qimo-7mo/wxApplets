@@ -1,0 +1,33 @@
+<view class="mesContainer">
+    <view class="contentBox">
+        <text class="conTitle">免费送票！超有内涵的门票。</text>
+        <text class="conDate">2020-12-18</text>
+        <view class="imgBox">
+            <image src="https://img10.360buyimg.com/pop/s590x470_jfs/t1/122746/25/19635/99259/5fbc5e83E9ad70c57/8bcbb2319250a096.jpg.webp" mode="aspectFill"></image>
+        </view>
+        
+        <text class="conDescribe">最糟糕的，也行就是最幸运的。</text>
+        <text class="readAll">Read All</text>
+    </view>
+
+    <view class="contentBox">
+        <text class="conTitle">免费送票！超有内涵的门票。</text>
+        <text class="conDate">2020-12-18</text>
+        <view class="imgBox">
+            <image src="https://img10.360buyimg.com/pop/s590x470_jfs/t1/122746/25/19635/99259/5fbc5e83E9ad70c57/8bcbb2319250a096.jpg.webp" mode="aspectFill"></image>
+        </view>
+        
+        <text class="conDescribe">最糟糕的，也行就是最幸运的。</text>
+        <text class="readAll">Read All</text>
+    </view>
+    <view class="contentBox">
+        <text class="conTitle">免费送票！超有内涵的门票。</text>
+        <text class="conDate">2020-12-18</text>
+        <view class="imgBox">
+            <image src="https://img10.360buyimg.com/pop/s590x470_jfs/t1/122746/25/19635/99259/5fbc5e83E9ad70c57/8bcbb2319250a096.jpg.webp" mode="aspectFill"></image>
+        </view>
+        
+        <text class="conDescribe">最糟糕的，也行就是最幸运的。</text>
+        <text class="readAll">Read All</text>
+    </view>
+</view>

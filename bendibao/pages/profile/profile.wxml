@@ -1,0 +1,16 @@
+<view>
+    <view class="head">
+        <image src="/assets/images/avatar.png" mode="aspectFill" class="hdimg"></image>
+    </view>
+    <!-- <text class=" division"></text> -->
+    <text class="prroItem cut">个人资料</text>
+    <text class="prroItem bd_bottom">我的优惠卷</text>
+    <!-- <text class=" division"></text> -->
+    <text class="prroItem cut">常见问题</text>
+    <text class="prroItem">使用条款</text>
+    <text class="prroItem">隐私权政策</text>
+    <text class="prroItem bd_bottom">联系客服</text>
+    <!-- <text class=" division"></text> -->
+
+    <text class="prroItem cut bd_bottom">设置</text>
+</view>

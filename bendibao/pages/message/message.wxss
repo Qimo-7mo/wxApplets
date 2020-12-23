@@ -1,0 +1,60 @@
+page {
+    background-color:#f0f0f0;
+}
+.mesContainer {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.contentBox {
+    background-color: #fff;
+    border:1px solid #ccc;
+    /* height:450rpx; */
+    display:flex;
+    flex-direction:column;
+    box-sizing:border;
+    padding:25rpx;
+    margin:30rpx 0;
+    border-radius:13rpx;
+    font-size:14px;
+    color:rgb(41, 49, 70);
+}
+.contentBox .imgBox {
+    /* width:352rpx; */
+    height:300rpx;
+    overflow:hidden;
+    margin:10rpx 0;
+}
+.contentBox .imgBox image {
+    height:100%;
+}
+
+.contentBox .conTitle {
+    font-size:18px;
+}
+.contentBox  .conDate {
+    color:#999;
+    padding-bottom:10rpx;
+    border-bottom:1px solid #ccc;
+
+}
+.contentBox .conDescribe {
+    padding-bottom:10rpx;
+    border-bottom:1px solid #ccc;
+}
+.contentBox .readAll {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:10rpx;
+}
+.contentBox .readAll::after {
+    content:"";
+    width:20rpx;
+    height:20rpx;
+    border-top:1px solid #999;
+    border-right:1px solid #999;
+    transform:rotate(45deg);
+    margin-right:20rpx;
+}
+

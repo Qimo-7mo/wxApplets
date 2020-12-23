@@ -1,0 +1,18 @@
+<view class="shopBox" wx:for="{{ shopsList }}" wx:key="id">
+    
+    <image src="{{item.images[0]}}" mode="aspectFill" class="shopImg"></image>
+
+    <view class="shopContent">
+        <text class="shopName">{{item.name}}</text>
+        <text class="shopCon">电话：{{item.phone}}</text>
+        <text class="shopCon">地址：{{item.address}}</text>
+        <text class="shopCon">营业时间：{{item.businessHours}}</text>
+    </view>
+    <view class="star">
+        <text class="star_before">★★★★★</text>
+        <text class="star_after" style="width:{{ item.score }}%;">★★★★★</text>
+    </view>
+</view>
+<view class="shopBottom" wx:if="{{show}}">主子，小的也是有底线的哦^_^~</view>
+<view class="loadmore loading loadFont" wx:else>正在加载...</view>
+

@@ -1,0 +1,85 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": []
+    },
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": false,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "useMultiFrameRuntime": false,
+        "useApiHook": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "enableEngineNative": false,
+        "bundle": false,
+        "useIsolateContext": true,
+        "useCompilerModule": true,
+        "userConfirmedUseCompilerModuleSwitch": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.14.1",
+    "appid": "wx04f77ba8390dd93d",
+    "projectname": "bendibao",
+    "debugOptions": {
+        "hidedInDevtools": []
+    },
+    "scripts": {},
+    "isGameTourist": false,
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/shops/shops",
+                    "pathName": "pages/shops/shops",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/shops/shops",
+                    "pathName": "pages/shops/shops",
+                    "query": "cat=2",
+                    "scene": null
+                },
+                {
+                    "name": "pages/shops/shops",
+                    "pathName": "pages/shops/shops",
+                    "query": "shopId=1&title=美食",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
